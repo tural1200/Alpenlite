@@ -1,0 +1,196 @@
+header {
+    .my-container {
+        nav {
+            .navbar-brand {
+                
+                    img {
+                        width: 5rem;
+                    }
+                
+            }
+
+            .nav-item {
+                margin: 0px 10px;
+                a {
+                    font-weight: 650;
+                    img {
+                        width: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    margin-top: 5rem;
+    .my-container {
+        .heading {
+            h1 {
+                font-family: 'Castoro', serif;
+            }
+
+            p {
+                width: 20rem;
+                font-weight: 500;
+            }
+        }
+
+        .carousel-1 {
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+            
+            
+            .photos {
+                display: flex;
+                img {
+                    max-width: 50%;
+                }
+            }
+
+            .heading {
+                margin-top: 2rem;
+                display: flex;
+                justify-content: space-around;
+
+                .active {
+                    font-weight: 700;
+                }
+
+                .disabled {
+                    font-weight: 700;
+                    color: gray;
+                }
+
+            }
+        }
+
+        .carousel-2 {
+            margin-top: 5rem;
+            display: flex;
+            justify-content: space-between;
+
+            .box1 {
+                width: 15rem;
+                img {
+                    width: 100%;
+                }
+            }
+            
+            .box2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Castoro', serif;
+            }
+
+            .box3 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                img {
+                    width: 50px;
+                }
+            }
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .card {
+                margin-bottom: 20px;
+                .card-body {
+                    text-align: center;
+                    .card-text {
+                        font-weight: 700;
+                    }
+    
+                    .price {
+                        opacity: 0.5;
+                    }
+                }
+            }
+            
+        }
+
+        .main-content2 {
+            .video {
+                
+                background-image: url(/img/christopher-burns--jbsw_GUK74-unsplash.jpg);
+                background-position: center;
+                background-size: cover;
+                min-height: 30rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                a {
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+
+            .text {
+                margin-top: 5rem;
+               display: flex;
+               flex-direction: column; 
+               align-items: center;
+               text-align: center;
+
+               h2 {
+                font-family: 'Castoro', serif;
+               }
+
+               p {
+                   width: 50%;
+                   font-weight: 600;
+               }
+            }
+        }
+    }
+}
+
+footer {
+    .my-container {
+        background-color: rgb(246,245,243);
+        min-height: 15rem;
+
+        .text {
+            padding-top: 3rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                font-weight: 600;
+            }
+
+            form {
+                width: 50%;
+
+                .btn {
+                    width: 15rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    footer {
+        .my-container {
+            .text {
+                form {
+                    .btn {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

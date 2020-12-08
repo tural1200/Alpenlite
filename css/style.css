@@ -1,0 +1,223 @@
+header .my-container nav .navbar-brand img {
+  width: 5rem;
+}
+
+header .my-container nav .nav-item {
+  margin: 0px 10px;
+}
+
+header .my-container nav .nav-item a {
+  font-weight: 650;
+}
+
+header .my-container nav .nav-item a img {
+  width: 16px;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+main .my-container .heading h1 {
+  font-family: 'Castoro', serif;
+}
+
+main .my-container .heading p {
+  width: 20rem;
+  font-weight: 500;
+}
+
+main .my-container .carousel-1 {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .my-container .carousel-1 .photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .my-container .carousel-1 .photos img {
+  max-width: 50%;
+}
+
+main .my-container .carousel-1 .heading {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .my-container .carousel-1 .heading .active {
+  font-weight: 700;
+}
+
+main .my-container .carousel-1 .heading .disabled {
+  font-weight: 700;
+  color: gray;
+}
+
+main .my-container .carousel-2 {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .my-container .carousel-2 .box1 {
+  width: 15rem;
+}
+
+main .my-container .carousel-2 .box1 img {
+  width: 100%;
+}
+
+main .my-container .carousel-2 .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Castoro', serif;
+}
+
+main .my-container .carousel-2 .box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .my-container .carousel-2 .box3 img {
+  width: 50px;
+}
+
+main .my-container .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .my-container .main-content .card {
+  margin-bottom: 20px;
+}
+
+main .my-container .main-content .card .card-body {
+  text-align: center;
+}
+
+main .my-container .main-content .card .card-body .card-text {
+  font-weight: 700;
+}
+
+main .my-container .main-content .card .card-body .price {
+  opacity: 0.5;
+}
+
+main .my-container .main-content2 .video {
+  background-image: url(/img/christopher-burns--jbsw_GUK74-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .my-container .main-content2 .video a img {
+  width: 70px;
+}
+
+main .my-container .main-content2 .text {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main .my-container .main-content2 .text h2 {
+  font-family: 'Castoro', serif;
+}
+
+main .my-container .main-content2 .text p {
+  width: 50%;
+  font-weight: 600;
+}
+
+footer .my-container {
+  background-color: #f6f5f3;
+  min-height: 15rem;
+}
+
+footer .my-container .text {
+  padding-top: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .my-container .text p {
+  font-weight: 600;
+}
+
+footer .my-container .text form {
+  width: 50%;
+}
+
+footer .my-container .text form .btn {
+  width: 15rem;
+}
+
+@media (max-width: 600px) {
+  footer .my-container .text form .btn {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
